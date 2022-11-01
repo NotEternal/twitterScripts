@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "noImplicitAny": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "strictNullChecks": true,
+    "noImplicitThis": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "noEmit": true,
+    "removeComments": true,
+    "isolatedModules": true,
+    "skipLibCheck": true,
+    "sourceMap": false,
+    "target": "es6",
+    "module": "esnext",
+    "baseUrl": ".",
+    "outDir": "./dist",
+    "lib": [
+      "esnext",
+      "es5",
+      "es2015",
+      "es2016",
+      "es2017",
+      "dom",
+      "dom.iterable",
+    ],
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ],
+}
